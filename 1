@@ -1,0 +1,13 @@
+meme_dict = {
+    "CRINGE": "Algo excepcionalmente raro o embarazoso",
+    "LOL": "Una respuesta común a algo gracioso",
+    "Bot":"Malo en algun un videojuego",
+    "Gamer":"Personas que juegan varios videojuegos o sen especializan en uno solo",
+    "Chungo":"Dificil o complicado",
+    "Outfit":"Palabra en inglés que significa vestimenta, ropa o conjunto"
+}
+word = input("Escribe una palabra que no entiendas (¡con mayúsculas!): ")
+if word in meme_dict.keys():
+    print("Significado de ",word, ": ",meme_dict[word])
+else:
+    print("Lo siento, no tengo información sobre la palabra",word)
